@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+</style>
+    <title>Mi CV - Landing Page</title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#linktree" class="nav-link">Mis Redes</a></li>
+                <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="section profile-section">
+        <div class="profile-container">
+            <img src="./pompompurin.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <h1 class="profile-name">Sindy Bracho</h1>
+            <p class="profile-summary">
+        Estudiante de 11 grado del colegio CASD Jose Prudencio Padilla de la especialidad de Analisis Quimico, con interes en las artes,biologia y quimica; me apasiona la musica,leer y dibujar.
+            </p>
+            <div class="contact-info">
+                <p><strong>Correo:</strong><a href="mailto:brachoariassindyvalentina@gmail.com">brachoariassindyvalentina@gmail.com</a></p>
+                <p><strong>Teléfono:</strong><a href="http://wa.me/+573223284737" target="_blank" rel="noopener noreferrer">+57 3223284737</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estudios Realizados</h2>
+        <div class="section-content">
+            <h3>Estudios Realizados</h3>
+            <ul class="list">
+                <li>
+                    <h4>Bootcamp de Desarrollo Web Full Stack | Coderhouse</h4>
+                    <p>Desarrollador Web Full Stack | Año de Finalización: 2024</p>
+                    <P>Descripción: Programa intensivo enfocado en los fundamentos del desarrollo web, incluyendo la creación de interfaces de usuario interactivas y responsivas.</P>
+                </li>
+                <li>
+                    <h4>Ingeniería de Sistemas | Universidad Nacional</h4>
+                    <p>Ingeniero de Sistemas| Año de Finalización: 2023</p>
+                    <p>Descripción: Formación académica en algoritmos, estructuras de datos y principios de la ingeniería de software.</p>
+                </li>
+            </ul>
+
+            <h3>Experiencia Laboral</h3>
+            <ul class="list">
+                <li>
+                    <h4>Asistente de Desarrollo Web | StartUpX</h4>
+                    <p>Enero 2023 - Diciembre 2023 <br>Descripción: Colaboré en el desarrollo y mantenimiento de la página principal de la compañía. Implementé nuevas funcionalidades con JavaScript y optimicé el diseño con CSS para mejorar la experiencia del usuario.</p>
+                </li>
+                <li>
+                    <h4>Estudiante | Proyectos Personales</h4>
+                    <p>Presente - Presente <br>Tener mi pagina de arte digital.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section skills-section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="skills-container">
+            <div class="skill-group">
+                <h3>Habilidades Técnicas</h3>
+                <ul class="list-inline">
+                    <li>HTML5</li>
+                    <li>CSS3 (Flexbox, Grid)</li>
+                    <li>JavaScript (ES6+)</li>
+                    <li>Control de Versiones (Git)</li>
+                    <li>Diseño Responsivo</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Habilidades Blandas</h3>
+                <ul class="list-inline">
+                    <li>Trabajo en Equipo</li>
+                    <li>Resolución de Problemas</li>
+                    <li>Comunicación y empatía</li>
+                    <li>Aprendizaje Rápido</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="linktree" class="section linktree-section">
+        <h2 class="section-title">Mis Redes y Proyectos</h2>
+        <div class="linktree-container">
+            <img src="./snorlax.jpg" alt="Tu Foto de Perfil" class="profile-photo">
+            <a href="URL_GITHUB" target="_blank" class="linktree-link"><strong>GitHub</strong></a>
+            <a href="URL_LINKEDIN" target="_blank" class="linktree-link"><strong>LinkedIn</strong></a>
+            <a href="URL_PORTAFOLIO" target="_blank" class="linktree-link"><strong>Portafolio</strong></a>
+            </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+        <h2 class="section-title">Contáctame</h2>
+        <form action="https://formspree.io/f/tu-email-de-formspree" method="POST" class="contact-form">
+            <input type="text" name="Sindy" placeholder="Sindy Bracho" required>
+            <input type="email" name="_replyto" placeholder="brachoariassindyvalentina@gmail.com" required>
+            <textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+            <button type="submit" class="submit-button">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2025 Sindy Bracho <br> Todos los derechos reservados.</p>
+        <p>"Los problemas de mañana, se los dejo al yo del mañana 💤"</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
